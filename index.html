@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High-Level Stopwatch</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Share+Tech+Mono|Montserrat:700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container glass">
+        <h1>⏱️ Pro Stopwatch</h1>
+        <div class="clock">
+            <span id="display">00:00:00.000</span>
+        </div>
+        <div class="buttons">
+            <button id="start"><span>Start</span></button>
+            <button id="pause"><span>Pause</span></button>
+            <button id="reset"><span>Reset</span></button>
+            <button id="lap"><span>Lap</span></button>
+        </div>
+        <div id="laps" class="glass">
+            <h2>Laps</h2>
+            <ul id="lap-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
